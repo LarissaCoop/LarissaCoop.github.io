@@ -1,2 +1,2 @@
 # LarissaCooper.github.io
-My Portfoli
+My Portfolio
