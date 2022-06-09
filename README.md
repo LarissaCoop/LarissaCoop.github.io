@@ -1,2 +1,2 @@
-# LarissaCooper.github.io
+# LarissaCoop.github.io
 My Portfolio
