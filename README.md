@@ -39,3 +39,4 @@ can be found at this link.</p>
 <p>This portfolio and individual repository are covered under the MIT license.  Details of which 
 can be found at this link.</p>
 <a href="https://choosealicense.com/licenses/mit/">MIT License</a>
+</body>
