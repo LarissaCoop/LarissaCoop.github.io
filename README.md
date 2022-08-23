@@ -1,3 +1,4 @@
+<body style="background-color:#F0F8FF">
 <img src="Larissa's-Amazing-Portfolio.jpg" width=100%/>
 <h2> Here are the links to my first three projects:</h2>
 <div style = "display:inline-block;">
