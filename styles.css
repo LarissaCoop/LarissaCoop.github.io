@@ -29,7 +29,7 @@ a {
 }
 
 body{
-  background-image: url("https://i.imgur.com/P8mhFTQ.jpg");
+  background-color: turquoise;
 }
 
 p {
@@ -105,10 +105,11 @@ article p {
 }
 
 .grid-container {
-  background-image: url("https://i.imgur.com/P8mhFTQ.jpg");
+  background-color: turquoise;
   display: grid;
   max-width: 1200px;
-  margin: 0 auto;
+  position: relative;
+  left: -80px;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   grid-template-rows: 380px 380px 220px;
@@ -124,7 +125,7 @@ article p {
 
 .grid-container > div:nth-child(1) {
   grid-column: 1 / span 1;
-  background-image: url("https://i.imgur.com/0q8CAIG.gifv");
+  background-color: turquoise;
 }
 
 .grid-container > div:nth-child(2) {
@@ -135,14 +136,17 @@ article p {
 
 .grid-container > div:nth-child(3) {
   grid-column: 1 / span 1;
+  background-color: skyblue;
 }
 
 .grid-container > div:nth-child(4) {
   grid-column: 2 / span 1;
+  background-color: skyblue;
 }
 
 .grid-container > div:nth-child(5) {
   grid-column: 3 / span 1;
+  background-color: skyblue;
 }
 
 .grid-container > div:nth-child(6) {
