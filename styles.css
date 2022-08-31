@@ -7,15 +7,17 @@ html {
   box-sizing: inherit;
 }
 
-alert{
-  position:fixed;
-}
+
 #bus:hover{
   transform: scale(1.3);
 }
-#aboutText:hover,#pacman:hover, #eyeballs:hover{
+#aboutText:hover,#pacman:hover, {
   transform: scale(1.3);
 } 
+
+#eyeballs:hover{
+  transform: scale(2);
+}
 
 body,
 ul,
@@ -107,7 +109,7 @@ article p {
 .grid-container {
   background-color: turquoise;
   display: grid;
-  max-width: 1200px;
+  max-width: 1300px;
   position: relative;
   left: -80px;
   grid-template-columns: repeat(3, 1fr);
@@ -157,32 +159,16 @@ article p {
 .about > div > img {
   top:-20px;
 }
-.images {
-  text-align: center;
-  margin: 80px 0;
-  white-space: nowrap;
+
+#eyeballs {
+  overflow: hidden;
+  overflow-x: hidden;
 }
-.images li {
-  display: inline-block;
-  list-style-type: none;
-  width: 40%;
-  margin: 20px 5%;
+
+#eyes {
   position: relative;
-}
-.images li:hover {
-  top: -4px;
-}
-.images li img {
-  max-width: 100%;
-}
-section.join {
-  background: #f4f4f4;
-  text-align: center;
-  padding: 60px 20px;
-  color: #4b4b4b;
-}
-section.join h2 {
-  font-size: 36px;
+  left: -40px;
+  overflow-x: hidden;
 }
 
 footer {
@@ -195,55 +181,16 @@ footer {
 /* responsive styles */
 
 @media screen and (max-width: 1400px) {
-  .banner .welcome {
-    font-size: 20px;
-  }
 }
+  
 
 @media screen and (max-width: 960px) {
-  .banner .welcome {
-    font-size: 18px;
-  }
-  nav li {
-    font-size: 18px;
-  }
 }
+  
 
 @media screen and (max-width: 700px) {
-  .banner .welcome {
-    font-size: 16px;
-    position: relative;
-    text-align: center;
-  }
-  .banner .welcome br {
-    display: none;
-  }
-
-  nav li {
-    font-size: 18px;
-  }
-
-  @media screen and (max-width: 560px) {
-    .banner .welcome {
-      font-size: 20px;
-      position: relative;
-      text-align: center;
-    }
-    .banner .welcome br {
-      display: none;
-    }
-  }
-  nav li {
-    display: block;
-    width: 100%;
-    margin: 12px 0;
-  }
-  article h2 {
-    font-size: 36px;
-  }
-  header,
-  nav {
-    position: relative;
-    top: 0;
-  }
 }
+ 
+@media screen and (max-width: 560px) {
+}
+    
